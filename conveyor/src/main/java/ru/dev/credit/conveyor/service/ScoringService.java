@@ -192,6 +192,7 @@ public class ScoringService {
                     .totalPayment(monthlyPayment)
                     .remainingDebt(remainingDebt)
                     .interestPayment(interestPayment)
+                    .debtPayment1(debtPayment1))
                     .debtPayment(debtPayment));
         }
 
